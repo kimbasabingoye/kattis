@@ -2,13 +2,13 @@
 
 ## What is this ?
 
-This repository contains my solutions to the programming challenges found on [Kattis]https://open.kattis.com/problems.
+This repository contains my solutions to the programming challenges found on [Kattis](https://open.kattis.com/problems).
 
 All the solutions are accepted by Kattis.
 
 ## How to find the related problem ?
 
-The folder name is the problem's name on Kattis. You can find the problem by substituting [filename] with the name of the file: https://open.kattis.com/problems/[filename]
+The folder name is the problem's name on Kattis. You can find the problem by substituting [foldername] with the name of the folder: https://open.kattis.com/problems/[foldername]
 
 Example: hello contains my solution for the problem https://open.kattis.com/problems/hello
 
@@ -16,12 +16,12 @@ Example: hello contains my solution for the problem https://open.kattis.com/prob
 Problems are solved mainly with C++.
 
 ### Compilation
-You can compile the source code by using make like this: 
+You can compile the source code **src.cpp** by using make like this: 
 ```
-make src
+gcc -o src src.cpp
 
 ```
-Where the solution file name is src.cpp
+Where src.cpp is the solution file name
 
 ### Execution
 You execute the program by typing the command below. The **in** argument is the file that contain the test cases

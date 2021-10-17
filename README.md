@@ -18,8 +18,7 @@ Problems are solved mainly with C++.
 ### Compilation
 You can compile the source code **src.cpp** by using make like this: 
 ```
-gcc -o src src.cpp
-
+g++ -o src src.cpp
 ```
 Where src.cpp is the solution file name
 
